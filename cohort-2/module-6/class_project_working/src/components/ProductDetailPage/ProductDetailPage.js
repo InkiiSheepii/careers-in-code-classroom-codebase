@@ -6,6 +6,7 @@ import { convertToPrice } from "../../utils/prices"
 import { RichText } from "../RichText/RichText"
 import { ProductQuantity } from "../ProductQuantity/ProductQuantity"
 import { ProductMediaViewer } from "./ProductMediaViewer"
+import { Toast, showToast } from "../Toast/Toast"
 
 export const ProductDetailPage = (props) => {
   const { id } = useParams()
@@ -57,6 +58,7 @@ export const ProductDetailPage = (props) => {
           </div>
         </div>
       </div>
+      <Toast />
     </div>
   )
 }

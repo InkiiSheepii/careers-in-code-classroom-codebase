@@ -15,7 +15,7 @@ export const Header = (props) => {
     <div className="Header">
       <nav className="navbar navbar-expand-md navbar-light bg-light">
         <Link className="navbar-brand" to="/">
-          RandR
+          Domo
         </Link>
 
         <div className="d-flex flex-row d-md-none ml-auto mr-4">

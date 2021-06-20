@@ -11,7 +11,7 @@ export const Layout = (props) => {
   return (
     <Router>
       <div className="Layout">
-        <Header />
+        <Header username={props.username} />
 
         <Switch>
           <Route path="/search">
